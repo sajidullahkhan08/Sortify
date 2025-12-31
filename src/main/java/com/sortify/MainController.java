@@ -391,6 +391,11 @@ public class MainController {
         }
 
         String scope = duplicateScopeCombo.getValue();
+        if (scope == null || scope.isEmpty()) {
+            showAlert("Error", "Please select a scan scope.");
+            return;
+        }
+
         List<FileInfo> scopeFiles = new ArrayList<>();
         if ("Entire Workspace".equals(scope)) {
             scopeFiles.addAll(scannedFiles);
@@ -525,6 +530,11 @@ public class MainController {
 
     @FXML
     public void recoverFiles() {
+        if (selectedDirectory == null) {
+            showAlert("Error", "No directory selected. Please select a directory first in the Organize tab.");
+            return;
+        }
+
         Path recoveryDir = selectedDirectory.resolve("Sortify_Recovery");
         if (!Files.exists(recoveryDir)) {
             showAlert("Info", "No recovery folder found.");

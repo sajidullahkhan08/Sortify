@@ -676,7 +676,7 @@ This project was developed as part of the **Design & Analysis of Algorithms (DAA
 
 ### 👥 Contributors
 
-- **Primary Developer**: [Your Name]
+- **Primary Developer**: Sajidullah Khan
 - **Algorithm Design**: Inspired by CLRS and Sedgewick
 - **UI/UX Design**: Modern JavaFX best practices
 - **Testing**: Comprehensive validation methodologies
@@ -700,7 +700,7 @@ This project was developed as part of the **Design & Analysis of Algorithms (DAA
 
 ### 📧 Contact Information
 
-- **Project Lead**: [Your Email]
+- **Project Lead**: sajiidullahkhan0348@gmail.com
 - **Issues**: GitHub Issues
 - **Discussions**: GitHub Discussions
 
