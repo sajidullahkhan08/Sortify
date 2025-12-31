@@ -27,8 +27,8 @@
 ### 📚 Academic Framework
 
 **Course**: Design & Analysis of Algorithms (DAA)  
-**Institution**: [Your Institution Name]  
-**Semester**: [Current Semester]  
+**Institution**: International Islamic University Islamabad 
+**Semester**: Fall-2025 (5)  
 **Project Type**: Comprehensive Implementation Project  
 
 ### 🎯 Real-World Problem Statement
